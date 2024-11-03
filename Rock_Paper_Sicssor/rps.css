@@ -1,0 +1,144 @@
+*{
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    margin: 0%;
+ 
+    
+}
+
+h1{
+    
+    background-color: #000000;
+    color: white;
+    padding: 2vh;
+
+}
+h2{
+        padding: 1vh;
+        background-color: #1f0b64;
+        margin-top: 25vh;
+        display: flex;
+        justify-content: center;
+        margin-left : 38%;
+        margin-right: 35%;
+        border-width: 1vh;
+        border-color: antiquewhite;
+    
+    }
+h4{
+    margin-right: 27vh;
+    color: red;
+    font-size: xx-large;
+    text-shadow: #1f0b64;
+    
+
+
+}
+h5{
+    
+    font-size: x-large;
+    color: red;
+    text-align: center;
+    margin-right: 8vw;
+
+    margin-left: 10vw;
+}
+.score{
+    margin-top: 10vh;
+    align-items: center;
+    display: flex;
+    margin-left:  35vw;
+    margin-right: 300px;
+    color: azure;
+    font-size: xx-large;
+    text-align: center; 
+}
+.score_name{
+    display: flex;
+    margin-left: 50vh;
+
+}
+#user_score{
+ margin-right: 24vh; 
+ 
+ padding-left: 30px;
+ padding-right: 30px;
+ color: #000000;
+}
+#computer_score{
+
+    padding-left: 30px;
+   padding-right: 30px;
+   color: #000000;
+   margin-left: 18vh;
+
+}
+
+.bottom_text{
+    display: flex;
+    margin-left: 34vw;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large; 
+ }
+ 
+
+
+.choice{
+   margin-top: 10vh;
+   margin-left: 15vh;
+   background-color: #251561;
+   display: flex;
+   border-radius: 50%;
+   height: 21.5vh;   
+   width:  21.5vh ;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(38, 0, 255);
+    animation: alternate-reverse;
+
+
+}
+   
+img{
+    height :  20vh;
+    width:    20vh;
+    border-radius: 50%;
+    justify-content: center;
+    object-fit: cover;
+   
+    
+    
+}
+.winnerMessage {
+    
+     color :rgb(255, 255, 255);
+     font-size: x-large;
+     padding: 30px;
+     margin-left: 1vw;
+     padding-left: 100px;
+}
+  
+button{
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 50;
+    margin-left: 7vw;
+    font-size: large;
+    
+}
+button:hover{
+    color:red;
+    cursor: pointer;
+}
+
