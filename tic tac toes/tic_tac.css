@@ -1,0 +1,124 @@
+* {
+
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 0%;
+
+    justify-content:center ;
+   
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: rgb(20, 20, 82);
+    text-align: center;
+    padding: 20px ;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 0%;
+    width: 100%;
+}
+h2{
+    color: red;
+    background-color: rgb(20, 20, 82) ;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+
+}
+
+.score p {
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ff0000;
+
+   
+}
+
+.box:hover {
+
+    background-color: #f0f0f0;
+}
+
+.box:disabled {
+    cursor: not-allowed;
+}
+
+#turn {
+    font-size: 1.5em;
+    color: #1800a1;
+    margin-top: 5%; 
+    width: 50%; /* Sets a width so margins can take effect */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    padding: 20px; /* Optional: adds some spacing within the section */
+    background-color: aqua;
+    font-size: xx-large;
+}
+     
+
+button{
+    background-color: #6600ff;
+   
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #ffffff;
+    border-radius: 10%;
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+#reset_btn{
+    background-color: #ff0000;
+    margin-left: 30%;
+}
+
+.btn{
+    display: flex;
+}
+
+#vs{
+    background-color: aqua;
+    font-size: xx-large;
+    margin-top: 0%;
+   
+}
